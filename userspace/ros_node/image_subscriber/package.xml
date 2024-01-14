@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>image_subscriber</name>
+  <version>3.7.40</version>
+  <description>TODO</description>
+  <license>TODO</license>
+  <author email="mp4d@mp4d.dk"></author>
+  <maintainer email="mp4d@mp4d.dk"></maintainer>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>dynamixel_sdk</depend>
+  <depend>dynamixel_sdk_custom_interfaces</depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
